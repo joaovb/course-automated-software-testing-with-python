@@ -1,14 +1,17 @@
 my_variable = "hello"
 
 
-grades = [90, 78, 67, 90, 86]
-grades_tuples = (90, 78, 67, 90, 86, 90, 89) #imutable
-set_grades = {77, 8, 90, 100, 100, 90, 87, 90, 1900} # unique & unordered
+grades = [77, 80, 90]
+grades_tuples = (77, 80, 90) #imutable
+set_grades = {77, 80, 90} # unique & unordered
 
 
 # print(sum(grades) / len(grades))
 # print(sum(grades_tuples) / len(grades_tuples))
-grades.append(108)
+# grades.append(108)
 
+grades_tuples = grades_tuples + (100, 200)
+
+set_grades.add(900)
 
 print(set_grades)
