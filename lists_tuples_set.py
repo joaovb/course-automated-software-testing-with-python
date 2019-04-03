@@ -26,3 +26,15 @@ winning_number = {1, 3, 5, 7, 9, 11}
 print(your_lottery_numbers.union(winning_number))
 
 print({1, 2, 3, 4}.difference({1, 2}))
+
+print("***********")
+
+lista_negra = [29, 78, 80]
+
+
+print(sum(lista_negra))
+
+
+set1 = {14, 5, 9, 31, 12, 77, 67, 8,}
+set2 = {5}
+
